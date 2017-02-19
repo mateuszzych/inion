@@ -1,0 +1,185 @@
+@media (max-width: 1200px) and (min-width: 992px) {
+    /*WIDGET ADRESOWY FOOTER.PHP*/
+    .textwidget {
+        margin-left: -50px;
+    }
+}
+@media (max-width: 993px) {
+    /*FORMULARZ KONTAKTOWY STRONA KONTAKT*/
+    .contact .bigform {
+        width: 70%;
+    }
+}
+@media (max-width: 767px) {
+    /*HEADER*/
+    #header {
+        height: 82px;
+        background: white;
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+    }
+   
+    #header .navbar-brand {
+        height: 80px;
+    }
+    #header .navbar-nav {
+        float: none;
+        height: auto;
+    }
+    #bs-example-navbar-collapse{
+        background: white;
+        -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.06);
+        -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.06);
+    }
+    #header .navbar-nav li{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #header .navbar-nav li a{
+        display: block;
+        font-size: 20px;
+    }
+    .nav.navbar-nav .current-menu-item a::before, .nav.navbar-nav a::after,    .nav.navbar-nav a:hover::before{
+        width: 40%;
+        margin: 0% 35% 0% 25%;
+    }
+    #header .logotype-top {
+        width: 180px;
+        height: 51px;
+    }
+    /*BANER NA PODSTRONACH SOCIAL,GOOGLE,ANALITYKA*/
+     .bigtop,
+    .carousel-inner {
+        margin-top: 82px;
+    }
+    /*PIERWSZY WPIS NA GŁÓWNEJ STRONIE*/
+    #home-info .main-info {
+        padding: 40px;
+    }
+    #home-info .main-info .row {
+        padding: 50px 0px;
+    }
+    /*TRZY KOŁA POD PIERWSZY WPISEM*/
+    .circles li {
+        margin-bottom: 18px;
+    }
+    /*SENTENCJA, NA ZIELONYM TLE, STRONA GŁÓWNA*/
+    section .sentence {
+        background: url(img/sentence.jpg) no-repeat;
+    }
+    /*WIDGET ADRESOWY FOOTER.PHP*/
+    .textwidget,
+    .center {
+        text-align: center;
+    }
+     /*LOGO GOOGLE W FOOTERZE*/
+    .google {
+        margin-bottom: 40px;
+    }
+    /* PODSTRONA KONTAKT*/
+    .contact .bigform {
+        width: 90%;
+    }
+    .middlecontact {
+        display: block;
+    }
+    .middlecontact .contact1,
+    .middlecontact #map {
+        width: 100%
+    }
+    /* GŁÓWNY CONTENT NA PODSTRONACH GOOGLE,ANALYTICS,SOCIAL ZBUDOWANY NA FLEXBOXACH*/
+
+    .all {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /* optional */
+        
+        -webkit-box-align: start;
+        -moz-box-align: start;
+        -ms-flex-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+    }
+    .textfieldposition {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+    }
+    .photofieldposition {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+    /* PODSTRONA GOOGLA I ANALITYKA FOTO I TEXT*/
+    .social-photo-second {
+        margin: -170px -232px 0px 73px;
+    }
+    .social-text-second {
+        margin: 70px 10px 70px -25px;
+    }
+    /* PODSTRONA SOCIAL FOTO I TEXT*/
+    .social-text {
+        margin: 70px -10px 70px 25px;
+    }
+    .social-photo {
+        margin-top: -157px;
+        margin-left: -141px;
+        padding-right: 58px;
+    }
+}
+@media (max-width: 640px) {
+    /* PODSTRONA KONTAKT*/
+    .contact .bigform {
+        width: 100%;
+    }
+    /*PIERWSZY WPIS NA GŁÓWNEJ STRONIE*/
+    #home-info .main-info {
+        padding: 30px 10px;
+    }
+    /*JAK DZIAŁAMY? STRONA GŁÓWNA*/
+    .step-list ul {
+        width: 70%
+    }
+}
+@media (max-width: 480px) {
+    /*HEADER*/
+    #header .navbar-brand {
+        max-width: 75%;
+    }
+    /* PODSTRONA KONTAKT*/
+    .contact .bigform {
+        width: 100%;
+    }
+    /*PIERWSZY WPIS NA GŁÓWNEJ STRONIE*/
+    #home-info .main-info {
+        padding: 10px 0px;
+    }
+}
+
+@media (max-height: 400px) {
+    /*HEADER DŁUGOŚĆ OKNA MENU PO KLIKNIĘCIU*/
+    #bs-example-navbar-collapse{
+        overflow: scroll !important;
+        max-height: 230px!important;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx) {
+    -webkit-font-smoothing: subpixel-antialiased;
+}
